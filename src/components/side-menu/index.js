@@ -16,8 +16,8 @@ const SideMenu = ({ menuItems = [], isOpen = false, setIsOpen }) => {
       </button>
       <ul>
         {menuItems.map(({ path, label }) => (
-          <li>
-            <Link to={path} className="menu-item" key={path}>
+          <li key={path}>
+            <Link to={path} className="menu-item">
               {label}
             </Link>
           </li>
