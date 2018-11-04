@@ -1,0 +1,38 @@
+.side-menu {
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s;
+  color: lightgrey;
+  .close-button {
+    color: lightgrey;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    border: 0 none;
+    background-color: transparent;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    li {
+      a {
+        color: lightgrey;
+        text-decoration: none;
+      }
+      a:hover {
+        color: darkgray;
+      }
+      list-style-type: none;
+      padding: 0.5rem;
+    }
+  }
+}

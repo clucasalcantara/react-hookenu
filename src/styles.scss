@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}

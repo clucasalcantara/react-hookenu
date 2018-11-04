@@ -1,0 +1,28 @@
+{
+  "name": "overlay-hooked-sidemenu",
+  "version": "1.0.0",
+  "description": "A simple overlay side menu built with React using hooks to control opening state",
+  "keywords": [
+    "react, hooks, reactjs"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.7.0-alpha.0 - next",
+    "react-dom": "16.7.0-alpha.0 - next",
+    "react-router-dom": "4.4.0-beta.6 - next",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
